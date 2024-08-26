@@ -1,0 +1,37 @@
+
+What are pointers?
+
+        => Pointers are variables which can store addresses
+
+        => Pointers help in dynamic memory allocation , implementation amd managing 
+            complex data structure  which are allocated memory dynamically , optimized  
+            use of memory and also allow for call-by-refference function calls.
+
+        => Pointers makes it possible  to pass  the address  of a data  structure  rather than he entire structure to the function.
+
+        => A pointer variable is preceded  by (*) symbol
+                Example :  int *ptr; 
+                        char  *str
+
+
+*** Some type of pointers ***
+
+        ==> Void Pointer : Special type of pointer where it is not associated  to any data type . this is a general purpose ponter .
+
+        ==> Null Pointer : A pointer that points to nothing.
+        ==> Danfling Pointer : A pointer that  points to a memory location  that has been deallocated.  
+
+        ==> Wild Pointer : An uninitialised pointer is a wild pointer.   
+
+        **** What is Dynamic memory allocation ?*****
+        ==> Usually , all memory allocated to variables is done automatially and  that  memory  is also  released automatially .
+
+        ==> dynamic memory allocation  allows  for manual allocation / de-allocation of memory 
+
+        ==> dynamically allocated memory is allocated on heap .
+
+        ==> Since memory is represented symbolically using pointers, the oprators involving dynamic memory  allocation work on pointers.
+
+        ==> new is used  to allocate memory dynamically 
+
+        ==> Delete is ued to release the allocation memory .
